@@ -1,0 +1,135 @@
+body {
+    background-color: #0a192f;
+    color: #ccd6f6;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+}
+
+.right-section {
+    flex: 2;
+    padding-left: 50px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.profile-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.left-section {
+    flex: 1;
+    padding-right: 40px;
+    border-right: 1px solid #233554;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.right-section strong {
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffffff;
+    margin: 0.1em 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ccd6f6;
+    margin: 0.1em 0;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    color:#8892b0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+nav {
+    margin: 20px 0;
+    font-family: 'Figtree SemiBold', sans-serif;
+    font-size: 0.8em;
+    letter-spacing: 0.1em; /* Ajuste o valor conforme necessário */
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover{
+    color: #669bbc;
+    transition: color 0.3s;
+}
+.devicon-color:hover {
+    color: #669bbc;
+
+}
+
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.devicon-color {
+    color: #ffffff;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.social-icons a i {
+    font-size: 2em;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.info-section {
+    margin-bottom: 10px; /* Ajuste conforme desejado */
+}
